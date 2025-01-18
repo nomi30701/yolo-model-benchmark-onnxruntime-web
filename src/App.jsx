@@ -141,6 +141,9 @@ function App() {
           <label htmlFor="model-selector">Model:</label>
           <select name="model-selector" ref={modelRef}>
             {/* <option value="YOUR_FILE_NAME">CUSTOM-MODEL</option> */}
+            <option value="yolo11n-simplify">yolo11n-2.6M</option>
+            <option value="yolo11s-simplify">yolo11s-9.4M</option>
+            <option value="yolo11m-simplify">yolo11m-20.1M</option>
             <option value="yolov10n">yolov10n-2.3M</option>
             <option value="yolov10s">yolov10s-7.2M</option>
             <option value="yolov9t-simplify">yolov9t-2.0M</option>

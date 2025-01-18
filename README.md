@@ -11,8 +11,11 @@ Test yolo model inference time in web.
 Realtime Show inference time in Chart and Average time.
 
 ## Models and Performance
-| Model | Test Size | Param. |
-| :-- | :-: | :-: |
+| Model | Test Size | params<br><sup>(M) |
+| :-- | :-: | :-: | :-: |
+| [YOLO11-N](https://github.com/ultralytics/ultralytics) | 640 | 2.6M |
+| [YOLO11-S](https://github.com/ultralytics/ultralytics) | 640 | 9.4M |
+| [YOLO11-M](https://github.com/ultralytics/ultralytics) | 640 | 20.1M |
 | [YOLOv10-N](https://github.com/THU-MIG/yolov10) | 640 | 2.3M |
 | [YOLOv10-S](https://github.com/THU-MIG/yolov10) | 640 | 7.2M |
 | [YOLOv9-T](https://github.com/WongKinYiu/yolov9) | 640 | 2.0M |
